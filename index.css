@@ -1,9 +1,8 @@
  * {
     box-sizing: border-box;
     text-align: center;
+    margin: 0;
 }
-
-
 nav a {
     color: black;
     text-decoration: none;
@@ -12,8 +11,7 @@ nav a {
 
 html, body {
     font-family: 'Roboto', sans-serif;
-    margin: 0 auto;
-    padding: 0;
+        padding: 0;
 }
 
 header {
@@ -31,34 +29,39 @@ div {
     background: url('banner.jpg') center/cover no-repeat;
     height: 20rem;
     width: auto;
-    margin-bottom: -400px;
-}
-
-main {
-    width: auto;
-    height: 20rem;
-    background: #FFE964;
-    margin: 0;
-    text-align: center;
-    vertical-align: middle;
+    margin-bottom: 0px;
+    border top: 30vh;
     
 }
 
+main {
+    background: #FFE964;
+    text-align: center;
+    padding-left: 30vw;
+    padding-bottom: 10vh;
+}
+
 article {
-    /* padding-top: -400px; */
+    background-color: white;
+    text-align: center;
 }
 
 h1 {
     color: white;
     margin: 0 auto;
-    padding: 0;
+    padding: 1vh;
+    text-align: center;
+    
 }
 
 h2 {
     padding: 1em;
     text-align: center;
+    font-weight: bold;
 }
-
+h3 {
+    font-weight: bold;
+}
 h1:nth-of-type(3) {
     text-decoration: underline;
 }
@@ -80,6 +83,19 @@ p {
     text-align: center;
 }
 
-section {
-    /* padding: 0px 100px; */
+section:nth-child(4) {
+    background-color: #FF523D;
+    color: white;
+}
+.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+footer {
+    background-color: #223C88;
+    color: white;
 }
