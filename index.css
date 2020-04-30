@@ -1,3 +1,23 @@
+html {
+    /* display: block; */
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.title {
+
+    background: url('banner.jpg') center/cover no-repeat;
+    height: 20rem;
 }
